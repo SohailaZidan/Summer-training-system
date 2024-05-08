@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/chat.css">
+    <title>TrainHub</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="">
+                    <h2>Train <span class="primary">Hub</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                   <span> <i class="fas fa-close"></i></span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html" class="active">
+                    <i class="fas fa-home"></i>
+                    <h3 data-lang="home">Home</h3>
+                </a>
+                <a href="profile.html">
+                    <i class="fas fa-user"></i>
+                    <h3 data-lang="profile">profile</h3>
+                </a>
+                <a href="mytraining.html">
+                    <i class="fas fa-table-cells-large"></i>
+                    <h3 data-lang="training">my training</h3>
+                </a>
+                <a href="report.html">
+                    <i class="fas fa-upload"></i>
+                    <h3 data-lang="report">Report</h3>
+                </a>
+                <a href="notification.html">
+                    <i class="fas fa-bell"></i>
+                    <h3 data-lang="notifications">notification </h3>
+                    <span class="count">20</span>
+                </a>
+               
+                <a href="help.html">
+                    <i class="fas fa-circle-info"></i>
+                    <h3 data-lang="help">help</h3>
+                </a>
+                <a href="settings.html">
+                    <i class="fas fa-gear"></i>
+                    <h3 data-lang="settings">settings</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-right-from-bracket"></i>
+                    <h3 data-lang="logout">log out</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ----------------------------End aside -------------------------------------- -->
+    <main>
+        <h1 data-lang="home">
+            Home
+        </h1>
+        <div class="date">
+            <input type="date" name="" id="">
+            
+        </div>
+        <div class="insights">
+            <div class="courses">
+                <span class="danger">  <i class="fas fa-code"></i></span>
+                <div class="middle">
+                    <div class="lef">
+                        <h3 data-lang="totalCourse">total courses</h3>
+                     
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <h1>8</h1>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted" data-lang="lastHour">last 24 hours</small>
+            </div>
+             <!-- --------------------------end courses--------------------- -->
+            <div class="company">
+                <span>  <i class="fas fa-building"></i></span>
+                <div class="middle">
+                    <div class="lef">
+                        <h3 data-lang="totalCompany">total companies</h3>
+                    
+                    </div>
+                    <div class="progress" >
+                        <svg >
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                           <h1>8</h1>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted" data-lang="lastHour">last 24 hours</small>
+            </div>
+            <!-- --------------------------end company--------------------- -->
+            <div class="requests">
+                <span>  <i class="fas fa-chart-simple"></i></span>
+                <div class="middle">
+                    <div class="lef">
+                        <h3 data-lang="totalrequest">total tracks request</h3>
+                      
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <h1>18</h1>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted" data-lang="lastHour">last 24 hours</small>
+            </div>
+            <!-- --------------------------end company--------------------- -->
+
+        </div>
+        <!-- --------------------End section1-------------------------------- -->
+        
+        <div class="recent">
+            <h2 data-lang="training">my training</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th data-lang="courseName">Course name</th>
+                        <th data-lang="companyName">Company Name</th>
+                        <th data-lang="hour">hours</th>
+                        <th data-lang="StatuS">status</th>
+                   
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="success">accepted</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="warning">waiting</td>
+                     
+                    </tr> <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="warning">waiting</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="warning">waiting</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="warning">waiting</td>
+                        
+                    </tr> <tr>
+                        <td>front end </td>
+                        <td>iti</td>
+                        <td>10</td>
+                        <td class="warning">waiting</td>
+                   
+                    </tr>
+                </tbody>
+            </table>
+            <a href="mytraining.html">show all</a>
+        </div>
+    </main>
+<!-- ------------------------------End main------------------------------------ -->
+<div class="right">
+    <div class="top">
+        <button id="menu-btn">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+        <select name="" id="change-language" hidden>
+            <option value="en" selected data-lang="lang_en">English</option>
+            <option value="ar" data-lang="lang_ar">Arabic</option>
+        </select>
+        <div hidden>
+            <div class="theme-toggler">
+                <span class="active"><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </div>
+           </div>
+        <div class="profile">
+            <div class="info">
+                <p data-lang="hey">hey,</p>
+                <b> razan hesham </b>
+              
+            </div>
+            <div class="profile-photo">
+                <img src="images/signup.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="recent-update">
+        <h2 data-lang="companies">companies</h2>
+        <div class="updates">
+            <div class="update">
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+                <div class="message">
+                    <a href="companyDetails.html">
+                    <p><b>iti</b></p>
+                    <small class="text-muted" data-lang="now">Now</small>
+                    </a>
+                </div>
+            </div>
+            <div class="update">
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+                <div class="message">
+                    <a href="#">
+                        <p><b>taG</b></p>
+                        <small class="text-muted" data-lang="now">Now</small>
+                    </a>
+                </div>
+            </div>
+            <div class="update">
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+                <div class="message">
+                    <a>
+                        <p><b>waha</b> </p>
+                        <small class="text-muted" data-lang="now">Now</small>
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="update">
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+                <div class="message">
+                    <a href="">
+                    <p><b>iti</b></p>
+                    <small class="text-muted" data-lang="now">Now</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------End Updates---------------------------------- -->
+
+    <div class="tracks">
+   
+        <a href="report.html">
+        <div class="item add-report">
+     
+            <div>
+                <span>
+                    <i class="fas fa-plus"></i>
+                </span>
+               <h3 data-lang="addreport">Add Report</h3>
+            </div>
+            
+        </div>
+        </a>
+        <button class="chatbot-toggler">
+            <span >  <i class="fas fa-message"></i></span>
+            <span >  <i class="fas fa-close"></i></span>
+          </button>
+          <div class="chatbot">
+            <header>
+              <h2>Chatbot</h2>
+              <span class="close-btn "> <i class="fas fa-close"></i></span>
+            </header>
+            <ul class="chatbox">
+              <li class="chat incoming">
+                <span >
+                  <i class="fas fa-robot"></i>
+                </span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+              </li>
+            </ul>
+            <div class="chat-input">
+              <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+              <span id="send-btn"> <i class="fas fa-paper-plane"></i></span>
+            </div>
+          </div>
+      
+    </div>
+</div>
+
+
+
+    
+    </div>
+    
+    
+
+
+
+
+    <script src="script/main.js"></script>
+
+</body>
+</html>

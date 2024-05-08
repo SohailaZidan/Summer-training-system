@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/finalReport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>TrainHub</title>
+</head>
+<body>
+    <div class="container filter-over" >
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="">
+                    <h2>Train <span class="primary">Hub</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                   <span> <i class="fas fa-close"></i></span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html" >
+                    <i class="fas fa-home"></i>
+                    <h3 data-lang="home">Home</h3>
+                </a>
+                <a href="profile.html">
+                    <i class="fas fa-user"></i>
+                    <h3 data-lang="profile">profile</h3>
+                </a>
+                <a href="mytraining.html">
+                    <i class="fas fa-table-cells-large"></i>
+                    <h3 data-lang="training">my training</h3>
+                </a>
+                <a href="report.html">
+                    <i class="fas fa-upload"></i>
+                    <h3 data-lang="report">Report</h3>
+                </a>
+                <a href="notification.html">
+                    <i class="fas fa-bell"></i>
+                    <h3 data-lang="notifications">notification </h3>
+                    <span class="count">20</span>
+                </a>
+               
+                <a href="help.html">
+                    <i class="fas fa-circle-info"></i>
+                    <h3 data-lang="help">help</h3>
+                </a>
+                <a href="settings.html">
+                    <i class="fas fa-gear"></i>
+                    <h3 data-lang="settings">settings</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-right-from-bracket"></i>
+                    <h3 data-lang="logout">log out</h3>
+                </a>
+              
+            </div>
+        </aside>
+        <!-- ----------------------------End aside -------------------------------------- -->
+    <main>
+        <h1 data-lang="CR" >Create Reports</h1>
+        <br><br>
+     
+        <div class = "invoice-wrapper overflow-view2" id = "print-area">
+            <div class = "invoice">
+                <div class = "invoice-container">
+                    <div class = "invoice-head">
+                        <div class = "invoice-head-top">
+                            <div class = "invoice-head-top-left text-start">
+                                <img src = "fcaiLogo.png">
+                                <p data-lang="fac_name">Faculty of Computers and Artificial Intelligence</p>
+                            </div>
+                            <div class = "invoice-head-top-right">
+                                <p data-lang="un_name">University Sadat city</p>
+                                <img src = "univLogo.png">
+                            
+                            </div>
+                        </div>
+                        <div class = "hr"></div>
+                        <div class = "invoice-head-middle">
+                            <div class = "invoice-head-middle-left text-start">
+                                <p ><span class = "text-bold" data-lang="date">Date</span> : <span id="date-now"></span> </p>
+                            </div>
+                            <div class = "invoice-head-middle-right text-end">
+                                <p><spanf class = "text-bold"></span></p>
+                            </div>
+                        </div>
+                        <div class = "hr"></div>
+                        <div class = "invoice-head-bottom">
+                            <div class = "invoice-head-bottom-left">
+                                <ul>
+                                    <li class = 'text-bold' data-lang="rep">Report for :</li>
+                                    <li data-lang="rep_name">Companies Information</li>
+                                    
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class = "overflow-view">
+                        <div class = "invoice-body">
+                            <table  id="invoice" >
+                                <thead>
+                                    <tr>
+                                        <th data-lang="11">Company name</th>
+                                        <th data-lang="3">Email</th>
+                                        <th data-lang="12">Phone Number</th>
+                                        <th data-lang="13">Location </th>
+                                        <th data-lang="14">Description</th>
+                                        <th data-lang="15">Branches</th>
+                                        <th data-lang="16">Tax Number</th>
+                                        <th data-lang="17">Tracks</th>
+                                        <th data-lang="11">Company name</th>
+                                        <th data-lang="3">Email</th>
+                                        <th data-lang="12">Phone Number</th>
+                                        <th data-lang="13">Location </th>
+                                        <th data-lang="14">Description</th>
+                                        <th data-lang="15">Branches</th>
+                                        <th data-lang="16">Tax Number</th>
+                                        <th data-lang="17">Tracks</th>
+                                        
+                                  
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                        <td>Faculty of Computers and Artificial Intelligence</td>
+                                       
+                                    </tr>
+                                   
+                                 
+                                    <!-- <tr>
+                                        <td colspan="4">10</td>
+                                        <td>$500.00</td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                            <div class = "invoice-body-bottom">
+                                <div class = "invoice-body-info-item border-bottom">
+                                    <div class = "info-item-td primary" data-lang="s_total1">Sub Total:</div>
+                                    <div class = "info-item-td">5</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "invoice-foot text-center">
+                  
+
+                        <div class = "invoice-btns">
+                            <button type = "button" class = "invoice-btn" onclick="printInvoice()">
+                                <span>
+                                    <i class="fa-solid fa-print"></i>
+                                </span>
+                                <span data-lang="print">Print</span>
+                            </button>
+                           
+                        
+                            <button type="button" class="invoice-btn" onclick="exportToExcel()">
+                                <span>
+                                    <i class="fa-solid fa-file-export"></i>
+                                </span>
+                                <span>Export Excel</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+     
+        
+    </main>
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div>
+                <button id="menu-btn">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <select hidden name="" id="change-language" >
+                    <option value="en" data-lang="lang_en">English</option>
+                    <option value="ar" data-lang="lang_ar">Arabic</option>
+                </select>
+                <div hidden>
+                    <div class="theme-toggler">
+                        <span class="active"><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </div>
+                   </div>
+            </div>
+           
+            <div class="profile">
+                <div class="info">
+                    <p data-lang="hey">hey,</p>
+                    <b> sohaila </b>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="Filter_Page">
+            <form action="" class="create_Report">
+              
+             <div class="content-form-repo">
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_name" name="Company_name" value="Company name"> 
+                     <label for="C_name" data-lang="CR_C_name">Company name</label>
+                 </div>
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_phone" name="C_phone" value="phone number"> 
+                     <label for="C_phone" data-lang="CR_C_phone">Phone number </label>
+                 </div>
+                 
+             </div>
+
+             <div class="content-form-repo">
+             
+                <div class="semi-content">
+                    <input type="checkbox" id="C_url" name="C_url" value="Company URL"> 
+                    <label for="C_url" data-lang="CR_C_url">Company URL</label>
+                </div>
+                <div class="semi-content">
+                    <input type="checkbox" id="C_email" name="C_email" value="Email"> 
+                    <label for="C_email" data-lang="CR_C_email">Email</label>
+                </div>
+            </div>
+
+             <div class="content-form-repo">
+                 
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_tax" name="C_tax" value="Tax Number"> 
+                     <label for="C_tax" data-lang="CR_C_tax">Tax Number</label>
+                 </div>
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_branch" name="C_branch" value="Branches"> 
+                     <label for="C_branch" data-lang="CR_C_branch">Branches</label>
+                 </div>
+            </div>
+             <div class="content-form-repo">
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_id" name="C_id" value="Company id"> 
+                     <label for="C_id" data-lang="CR_C_id">Company ID</label>
+                 </div>
+                 <div class="semi-content">
+                     <input type="checkbox" id="C_desc" name="C_desc" value="Company description"> 
+                     <label for="C_desc" data-lang="CR_C_desc">Company description</label>
+                 </div>
+                
+               
+             </div>
+             <div class="content-form-repo">
+                <div class="semi-content">
+                    <input type="checkbox" id="Added_at" name="Added_at" value="Added_at"> 
+                    <label for="Added_at" data-lang="CR_C_Added_at"> Registration Time </label>
+                </div>
+                <div class="semi-content">
+                    <input type="checkbox" id="T_name" name="T_name" value="Track name"> 
+                    <label for="T_name" data-lang="CR_T_name">Track name</label>
+                </div>
+              
+            </div>
+             <div class="content-form-repo">
+                
+                 <div class="semi-content">
+                     <input type="checkbox" id="T_desc" name="T_desc" value="Track description"> 
+                     <label for="T-desc" data-lang="CR_T_desc">track description</label>
+                 </div>
+                 <div class="semi-content">
+                     <input type="checkbox" id="T_hour" name="T_hour" value="Track Hour"> 
+                     <label for="T_hour" data-lang="CR_T_hour"> Track Hour</label>
+                 </div>
+ 
+             </div>
+             <div class="content-form-repo">
+                 <div class="semi-content">
+                     <input type="checkbox" id="T_cont" name="T_cont" value="Track content"> 
+                     <label for="T_cont" data-lang="CR_T_cont">Track content</label>
+                 </div>
+             </div>
+              <button data-lang="CR_b"> show report</button>
+ 
+            </form>
+             <div>
+             
+             </div>
+         </div>
+        
+        </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    
+
+</div>
+<script>
+    const date_now = document.getElementById("date-now");
+    const date= new Date();
+    date_now.innerHTML=`${date.getDate()} / ${date.getMonth()+1} / ${date.getFullYear()} `;
+
+</script>
+
+<script src="script/main.js"></script>
+</body>
+</html>

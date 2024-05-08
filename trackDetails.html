@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>TrainHub</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="">
+                    <h2>Train <span class="primary">Hub</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                   <span> <i class="fas fa-close"></i></span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html" class="active">
+                    <i class="fas fa-home"></i>
+                    <h3 data-lang="home">Home</h3>
+                </a>
+                <a href="profile.html" >
+                    <i class="fas fa-user"></i>
+                    <h3 data-lang="profile">profile</h3>
+                </a>
+                <a href="mytraining.html">
+                    <i class="fas fa-table-cells-large"></i>
+                    <h3 data-lang="training">my training</h3>
+                </a>
+                <a href="report.html">
+                    <i class="fas fa-upload"></i>
+                    <h3 data-lang="report">Report</h3>
+                </a>
+                <a href="notification.html">
+                    <i class="fas fa-bell"></i>
+                    <h3 data-lang="notifications">notification </h3>
+                    <span class="count">20</span>
+                </a>
+               
+                <a href="help.html">
+                    <i class="fas fa-circle-info"></i>
+                    <h3  data-lang="help">help</h3>
+                </a>
+                <a href="settings.html">
+                    <i class="fas fa-gear"></i>
+                    <h3 data-lang="settings">settings</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-right-from-bracket"></i>
+                    <h3 data-lang="logout" >log out</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ----------------------------End aside -------------------------------------- -->
+    <main>
+        <h1> track name</h1>
+        <br><br>
+        <div class="company-content">
+                
+            <div class="profile-page">
+       
+                <div class="profile-content">
+                     <div class="profile-img">
+                        <img src="images/signup.png" alt="">
+                     </div>
+                 <div class="profile-information">
+                     <h2>ITI</h2>
+                     <p class="text-muted" data-lang="company">Company </p>
+                     <p class="text-muted">monofia </p>
+                    
+                     <br>
+                     
+                 </div>
+                </div>
+             
+         </div>
+        </div>
+        <br>
+        <div class="information-course" >
+            <h2 data-lang="info_course">Course Information</h2>
+            <br>
+            <div class="profile-data">
+                <i class="fas fa-pen"></i>
+                <h3 data-lang="courseName">Course Name : </h3>
+                <p>Mobile development</p>
+            </div>
+            <div class="profile-data">
+                <i class="fas fa-receipt"></i>
+                <h3 data-lang="desc">Description : </h3>
+                <p>Development mobile 
+                application using Flutter .</p>
+            </div>
+            <div class="profile-data">
+                <i class="fas fa-table-cells-large"></i>
+                <h3 data-lang="content">Content : </h3>
+                <p> Dart, Flutter, Sql, State 
+                    management, Api.</p>
+            </div>
+            <div class="profile-data">
+                <i class="fas fa-clock"></i>
+                <h3 data-lang="duration">Duration : </h3>
+                <p> 120 Hr</p>
+            </div>
+        </div>
+        
+    </main>
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <select name="" id="change-language" hidden>
+                <option value="en" data-lang="lang_en">English</option>
+                <option value="ar" data-lang="lang_ar">Arabic</option>
+            </select>
+            
+               <div hidden>
+                <div class="theme-toggler">
+                    <span class="active"><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </div>
+               </div>
+            <div class="profile">
+                <div class="info">
+                    <p data-lang="hey">hey,</p>
+                    <b> sohaila </b>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="Umassege">
+            <h2 data-lang="hey">Hey!</h2>
+            <p data-lang="message_happy">We are Happy to use TrainHub </p>
+        </div>
+        <div class="Umassege">
+            <h2>TrainHub</h2>
+            <p>Dec 10,2023</p>
+        </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    
+
+</div>
+
+
+    <script src="script/main.js"></script>
+</body>
+</html>

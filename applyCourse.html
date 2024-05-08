@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>TrainHub</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="">
+                    <h2>Train <span class="primary">Hub</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                   <span> <i class="fas fa-close"></i></span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html" class="active">
+                    <i class="fas fa-home"></i>
+                    <h3 data-lang="home">Home</h3>
+                </a>
+                <a href="profile.html" >
+                    <i class="fas fa-user"></i>
+                    <h3 data-lang="profile">profile</h3>
+                </a>
+                <a href="mytraining.html">
+                    <i class="fas fa-table-cells-large"></i>
+                    <h3 data-lang="training">my training</h3>
+                </a>
+                <a href="report.html">
+                    <i class="fas fa-upload"></i>
+                    <h3 data-lang="report">Report</h3>
+                </a>
+                <a href="notification.html">
+                    <i class="fas fa-bell"></i>
+                    <h3 data-lang="notifications">notification </h3>
+                    <span class="count">20</span>
+                </a>
+               
+                <a href="help.html">
+                    <i class="fas fa-circle-info"></i>
+                    <h3  data-lang="help">help</h3>
+                </a>
+                <a href="settings.html">
+                    <i class="fas fa-gear"></i>
+                    <h3 data-lang="settings">settings</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-right-from-bracket"></i>
+                    <h3 data-lang="logout" >log out</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ----------------------------End aside -------------------------------------- -->
+    <main>
+        <h1 data-lang="apply_course">Apply Course</h1>
+        <br><br>
+        <div class="apply-course">
+            <form action="" class="apply-form">
+                <div class="apply-form-content">
+                    <label for="" data-lang="full_name">Your name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="apply-form-content">  
+                    <select name="course-name">
+                        <option data-lang="courseName">Course name </option>
+                        <option value="ui">ui & ux</option>
+                        <option value="Flutter">Flutter</option>
+                        <option value="web">web</option>
+            
+                      </select>
+                    
+                </div>
+                <div class="apply-form-content">
+                    <label for="" data-lang="edit_phone">Phone number</label>
+                    <input type="number" placeholder="Enter your phone number">
+                </div>
+                <div class="apply-form-content">
+                    <label for="" data-lang="email">Email</label>
+                    <input type="email" placeholder="Enter your Email">
+                </div>
+                <div class="apply-form-content">  
+                    <select name="Department">
+                        <option  data-lang="department">Department</option>
+                        <option value="is">IS</option>
+                        <option value="cs">CS</option>
+                        <option value="ai">AI</option>
+                        <option value="bio">BIO</option>
+                      </select>
+                    
+                </div>
+                <div class="apply-form-content">
+                    <label for="" data-lang="gpa">gpa</label>
+                    <input type="number" placeholder="Enter your gpa">
+                </div>
+                <div class="apply-form-content">
+                  
+                    <select name="Level">
+                        <option data-lang="level">Level</option>
+                        <option value="third" data-lang="third">Third</option>
+                        <option value="fourth" data-lang="fourth">Fourth</option>
+                      </select>
+                    
+                </div>
+                <div class="apply-form-content">
+                    <label for="" data-lang="gender">Gender</label>
+                   <div class="apply-form-content-radio">
+                    
+                    <div>
+                        <input type="radio" name="Gender" id="male"> <label for="male"  data-lang="male">Male</label>
+                       </div>
+                       <div>
+                        <input type="radio" name="Gender" id="female" > <label for="female"  data-lang="female">Female</label>
+                       </div>
+                   </div>
+                </div>
+                
+                
+                <button data-lang="submit">Submit</button>
+            </form>
+        </div>
+
+        
+        <br>
+     
+        
+    </main>
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <select name="" id="change-language" hidden>
+                <option value="en" data-lang="lang_en">English</option>
+                <option value="ar" data-lang="lang_ar">Arabic</option>
+            </select>
+            
+               <div hidden>
+                <div class="theme-toggler">
+                    <span class="active"><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </div>
+               </div>
+            <div class="profile">
+                <div class="info">
+                    <p>hey, <b> sohaila </b></p>
+                    <small class="text-muted">student</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/signup.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    
+
+</div>
+
+
+<script src="script/main.js"></script>
+</body>
+</html>
